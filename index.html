@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
       rel="stylesheet"
     />
 
@@ -33,14 +33,24 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
       }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
       p {
+        margin: 0;
+        font-weight: normal;
         text-align: center;
         color: #1f314f;
-        font-family: Outfit;
-        margin: 0;
       }
-      .text-preset-1 {
+
+      h2.text-preset-1 {
         font-size: 22px;
         line-height: 120%;
         font-weight: bold;
@@ -62,10 +72,13 @@
     </style>
   </head>
   <body>
-    Improve your front-end skills by building projects Scan the QR code to visit
-    Frontend Mentor and take your coding skills to the next level
+    <header role="banner">
+      Improve your front-end skills by building projects Scan the QR code to
+      visit Frontend Mentor and take your coding skills to the next level
+    </header>
 
     <article
+      role="main"
       style="
         background-color: #fff;
         width: min-content;
@@ -92,9 +105,9 @@
           padding: 0 16px;
         "
       >
-        <p class="text-preset-1">
+        <h2 class="text-preset-1">
           Improve your front-end skills by building projects
-        </p>
+        </h2>
         <p class="text-preset-2">
           Scan the QR code to visit Frontend Mentor and take your coding skills
           to the next level
@@ -102,12 +115,12 @@
       </div>
     </article>
 
-    <div class="attribution">
+    <footer role="contentinfo" class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >
       . Coded by <a href="https://github.com/franArteaga8">franArteaga8</a>.
-    </div>
+    </footer>
   </body>
 </html>
