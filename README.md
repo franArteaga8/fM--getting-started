@@ -50,5 +50,5 @@ I wanna improve my handling of responsive sizes.
 
 ## Author
 
-- Github - [Add your name here](https://github.com/franArteaga8)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/franArteaga8)
+- Github - [franArteaga8](https://github.com/franArteaga8)
+- Frontend Mentor - [@franArteaga8](https://www.frontendmentor.io/profile/franArteaga8)
